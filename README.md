@@ -1,0 +1,1 @@
+# Ecosystem [![Build Status](https://github.com/ahadzic7/Ecosystem.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/ahadzic7/Ecosystem.jl/actions/workflows/CI.yml?query=branch%3Amaster)
