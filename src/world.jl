@@ -18,11 +18,6 @@ end
 
 kill_agent!(a::Animal, w::World) = delete!(w.agents, a.id)
 
-function eat!(eater::Animal{Wolf}, eaten::Animal{Sheep}, wrld::World)
-    eater.energy += eaten.energy * eater.Δenergy
-    kill_agent!(eaten, wrld)
-end
-
 mates(a1::Animal{A}, a2::Animal{A}) where A<:AnimalSpecies = a1.sex != a2.sex
 mates(::Agent, ::Agent) = false
 
